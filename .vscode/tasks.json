@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Development Server",
+      "type": "shell",
+      "command": "npx cross-env NODE_ENV=development tsx server/index.ts",
+      "group": "build",
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
